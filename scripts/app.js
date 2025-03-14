@@ -15,7 +15,6 @@ navigator.geolocation.getCurrentPosition(success, errorFunc);
         longitude: 35.23424
     }
 }
-
 function success(position){
     console.log(position)
     console.log('Our latitude is ' + position.coords.latitude)
